@@ -2,7 +2,7 @@ name: 孙福友活动监测
 
 on:
   schedule:
-    - cron: '1 1 * * *'  # 每天 UTC 1:00（中国时间早上 9 点）
+    - cron: '53 9 * * *'  # 每天 UTC 1:00（中国时间早上 9 点）
   workflow_dispatch:
 
 env:
